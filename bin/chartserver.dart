@@ -10,7 +10,8 @@ main() {
 
     // Wir nutzen start, um statischen Content (z.B. unseren
     // Client) auszuliefern
-    app.static("../build/web/");
+    //app.static("../build/web/");
+    app.static("../web/");
 
     // Hier nehmen wir eingehende Socketanfragen an
     app.get("/messages").listen((Request req) {

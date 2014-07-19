@@ -7,8 +7,8 @@
 
 #FROM stackbrew/ubuntu:13.10
 #MAINTAINER Nane Kratzke <nane@nkode.io>
-FROM aws_beanstalk/ubuntu:12.04
-#FROM aws_beanstalk/ubuntu:13.10
+#FROM ubuntu:12.04
+FROM aws_beanstalk/ubuntu:13.10
 
 # Install Dart SDK. Do not touch this until you know what you are doing.
 # We do not install darteditor nor dartium because this is a server container.
